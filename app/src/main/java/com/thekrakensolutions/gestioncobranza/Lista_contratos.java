@@ -192,7 +192,8 @@ public class Lista_contratos extends AppCompatActivity {
                         listaNombreVeterinarios.add(jsonobject.getString("numero_contrato"));
 
                         listaImagenVeterinarios.add(jsonobject.getString("cantidad"));
-                        listaIdVeterinario.add(jsonobject.getString("total"));
+                        //listaIdVeterinario.add(jsonobject.getString("total"));
+                        listaIdVeterinario.add(jsonobject.getString("id_contrato"));
 
                     }
 

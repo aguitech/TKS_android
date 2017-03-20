@@ -52,6 +52,8 @@
             android:screenOrientation="portrait"></activity>
         <activity android:name="com.thekrakensolutions.gestioncobranza.Lista_contratos"
             android:screenOrientation="portrait"></activity>
+        <activity android:name="com.thekrakensolutions.gestioncobranza.Detalle_contrato"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

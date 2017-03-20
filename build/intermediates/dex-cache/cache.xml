@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e63aef5c3f2e5c510b8fb4e0104cbc3f64f1076">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4310af12af2cfa216803bded0342710b53cf6ccf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/hectoraguilar/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
@@ -81,6 +90,15 @@
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/hectoraguilar/Git/TheKrakenSolutions/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_eeae3da2b55db34b67f24813ba33a91a351036e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f204484c3d2eb5fce6c2ec66d4ca1a82d890c18/classes.dex" />
     </item>
     <item
         is-multidex="true"

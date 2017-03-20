@@ -18,7 +18,7 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
-import com.thekrakensolutions.gestioncobranza.Detalle_cliente;
+import com.thekrakensolutions.gestioncobranza.Detalle_contrato;
 import com.thekrakensolutions.gestioncobranza.Lista_contratos;
 import com.thekrakensolutions.gestioncobranza.R;
 
@@ -119,9 +119,11 @@ public class ContratosAdapter extends BaseAdapter {
                 Log.d("click", String.valueOf(i));
                 Log.d("click", _listaIdVeterinarios.get(i));
 
-                Intent intent = new Intent(context, Detalle_cliente.class);
+                //Intent intent = new Intent(context, Detalle_cliente.class);
+                Intent intent = new Intent(context, Detalle_contrato.class);
                 //intent.putExtra("idveterinario", _listaIdVeterinarios.get(i));
-                intent.putExtra("idcliente", _listaIdVeterinarios.get(i));
+                //intent.putExtra("idcliente", _listaIdVeterinarios.get(i));
+                intent.putExtra("idcontrato", _listaIdVeterinarios.get(i));
                 context.startActivity(intent);
 
             }
