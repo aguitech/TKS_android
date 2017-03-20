@@ -10,8 +10,12 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
+import com.thekrakensolutions.gestioncobranza.adapters.PagosAdapter;
+
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
@@ -20,18 +24,27 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
 
 /**
  * Created by hectoraguilar on 07/03/17.
  */
 
 public class Detalle_contrato extends AppCompatActivity {
+    ListView lv;
     private String _urlGet;
     private String _url;
     public static final String idu = "idu";
     SharedPreferences sharedpreferences;
     public static final String MyPREFERENCES = "MyPrefs";
     private int valueID = 0;
+
+    public static ArrayList<String> listaNombreVeterinarios = new ArrayList<String>();
+    public static ArrayList<String> listaImagenVeterinarios = new ArrayList<String>();
+    public static ArrayList<String> listaIdVeterinario = new ArrayList<String>();
+
+    public Detalle_contrato mActivity = this;
+    public PagosAdapter _mascotasAdapter;
 
     public Detalle_contrato _activity = this;
     RecyclerView lvMascotas;
@@ -44,6 +57,8 @@ public class Detalle_contrato extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle_contrato);
+
+        lv = (ListView) findViewById(R.id.list_pagos);
 
         //String idString;
         Bundle extras = getIntent().getExtras();
@@ -77,6 +92,10 @@ public class Detalle_contrato extends AppCompatActivity {
         //_urlGet = "http://thekrakensolutions.com/cobradores/android_get_cliente.php?id_editar=" + idString + "&idv=" + valueID + "&accion=true";
         _urlGet = "http://thekrakensolutions.com/cobradores/android_get_contrato.php?id_editar=" + idString + "&idv=" + valueID + "&accion=true";
         new Detalle_contrato.RetrieveFeedTaskGet().execute();
+
+        _url = "http://thekrakensolutions.com/cobradores/android_get_contratos.php?id=" + Integer.toString(valueID);
+        Log.d("url_veterinarios", _url);
+        new Detalle_contrato.RetrieveFeedTask().execute();
 
     }
     class RetrieveFeedTaskGet extends AsyncTask<Void, Void, String> {
@@ -201,6 +220,86 @@ public class Detalle_contrato extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
+            }
+            Log.i("INFO", response);
+        }
+    }
+
+    class RetrieveFeedTask extends AsyncTask<Void, Void, String> {
+
+        private Exception exception;
+
+        protected void onPreExecute() {
+        }
+
+        protected String doInBackground(Void... urls) {
+            try {
+                Log.i("INFO url: ", _url);
+                URL url = new URL(_url);
+                HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+                try {
+                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
+                    StringBuilder stringBuilder = new StringBuilder();
+                    String line;
+                    while ((line = bufferedReader.readLine()) != null) {
+                        stringBuilder.append(line).append("\n");
+                    }
+                    bufferedReader.close();
+                    return stringBuilder.toString();
+                }
+                finally{
+                    urlConnection.disconnect();
+                }
+            }
+            catch(Exception e) {
+                Log.e("ERROR", e.getMessage(), e);
+                return null;
+            }
+        }
+
+        protected void onPostExecute(String response) {
+            if(response == null) {
+                response = "THERE WAS AN ERROR";
+            } else {
+                try {
+                    JSONTokener tokener = new JSONTokener(response);
+                    JSONArray arr = new JSONArray(tokener);
+
+                    listaNombreVeterinarios.clear();
+                    listaImagenVeterinarios.clear();
+                    listaIdVeterinario.clear();
+
+
+                    for (int i = 0; i < arr.length(); i++) {
+                        JSONObject jsonobject = arr.getJSONObject(i);
+
+                        /*
+                        listaNombreVeterinarios.add(jsonobject.getString("nombre"));
+                        listaImagenVeterinarios.add(jsonobject.getString("foto"));
+                        listaIdVeterinario.add(jsonobject.getString("id_veterinario"));
+                        */
+                        //listaImagenVeterinarios.add(jsonobject.getString("foto"));
+
+                        /*
+                        listaNombreVeterinarios.add(jsonobject.getString("numero_cliente") + " " + jsonobject.getString("nombre") + " " + jsonobject.getString("apaterno"));
+
+                        listaImagenVeterinarios.add(jsonobject.getString("imagen"));
+                        listaIdVeterinario.add(jsonobject.getString("id_cliente"));
+                        */
+                        listaNombreVeterinarios.add(jsonobject.getString("numero_contrato"));
+
+                        listaImagenVeterinarios.add(jsonobject.getString("cantidad"));
+                        //listaIdVeterinario.add(jsonobject.getString("total"));
+                        listaIdVeterinario.add(jsonobject.getString("id_contrato"));
+
+                    }
+
+                    _mascotasAdapter = new PagosAdapter(valueID, mActivity, listaNombreVeterinarios, listaImagenVeterinarios, listaIdVeterinario);
+                    lv.setAdapter(_mascotasAdapter);
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
             Log.i("INFO", response);
         }
