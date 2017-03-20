@@ -54,7 +54,7 @@ public class Agregar_pago extends AppCompatActivity {
             idString= null;
 
         } else {
-            idString= extras.getString("idcliente");
+            idString= extras.getString("idcontrato");
             Log.d("id_vet", idString);
 
         }
@@ -79,7 +79,8 @@ public class Agregar_pago extends AppCompatActivity {
         new Detalle_veterinario.RetrieveFeedTaskNotificaciones().execute();
         */
         //_urlGet = "http://hyperion.init-code.com/zungu/app/vt_principal.php?id_editar=" + idString + "&idv=" + valueID + "&accion=true";
-        _urlGet = "http://thekrakensolutions.com/cobradores/android_get_cliente.php?id_editar=" + idString + "&idv=" + valueID + "&accion=true";
+        //_urlGet = "http://thekrakensolutions.com/cobradores/android_get_cliente.php?id_editar=" + idString + "&idv=" + valueID + "&accion=true";
+        _urlGet = "http://thekrakensolutions.com/cobradores/android_get_contrato.php?id_editar=" + idString + "&idv=" + valueID + "&accion=true";
         new Agregar_pago.RetrieveFeedTaskGet().execute();
 
     }
@@ -330,7 +331,7 @@ public class Agregar_pago extends AppCompatActivity {
 
 
         Intent i = new Intent(Agregar_pago.this, Confirmar_pago.class);
-        i.putExtra("idcliente", idString);
+        i.putExtra("idcontrato", idString);
         startActivity(i);
 
         /*

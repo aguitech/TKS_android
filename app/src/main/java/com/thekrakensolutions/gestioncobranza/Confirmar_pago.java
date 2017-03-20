@@ -56,7 +56,7 @@ public class Confirmar_pago extends AppCompatActivity {
             idString= null;
 
         } else {
-            idString= extras.getString("idcliente");
+            idString= extras.getString("idcontrato");
             Log.d("id_vet", idString);
 
         }
@@ -345,7 +345,7 @@ public class Confirmar_pago extends AppCompatActivity {
 
         Intent i = new Intent(Confirmar_pago.this, Agregar_pago.class);
         //i.putExtra("idcliente", _listaIdVeterinarios.get(i));
-        i.putExtra("idcliente", idString);
+        i.putExtra("idcontrato", idString);
         startActivity(i);
 
     }
@@ -359,7 +359,7 @@ public class Confirmar_pago extends AppCompatActivity {
 
         Intent i = new Intent(Confirmar_pago.this, Detalle_pago.class);
         //i.putExtra("idcliente", _listaIdVeterinarios.get(i));
-        i.putExtra("idcliente", idString);
+        i.putExtra("idcontrato", idString);
         startActivity(i);
         /*
         Intent i = new Intent(Agregar_pago.this, Agregar_pago.class);

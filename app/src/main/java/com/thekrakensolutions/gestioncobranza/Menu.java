@@ -32,7 +32,7 @@ public class Menu extends AppCompatActivity {
         startActivity(i);
     }
     public void goClientes(View v){
-        Intent i = new Intent(Menu.this, Lista_clientes.class);
+        Intent i = new Intent(Menu.this, Lista_contratos.class);
         startActivity(i);
     }
     public void cerrarS(View v){

@@ -10,10 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc321ce8-eff9-4cb8-be59-7c42cf703011" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_contrato.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detalle_contrato.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TheKrakenSolutions.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -21,12 +17,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Lista_contratos.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Lista_contratos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/adapters/ContratosAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/adapters/ContratosAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Agregar_pago.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Agregar_pago.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Confirmar_pago.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Confirmar_pago.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_contrato.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_contrato.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Menu.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" />
     </list>
     <ignored path="TheKrakenSolutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,60 +54,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/MainActivity.java">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+            <state relative-caret-position="135">
+              <caret line="34" column="56" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lista_clientes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Lista_clientes.java">
+      <file leaf-file-name="Agregar_pago.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Agregar_pago.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="100" column="85" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="85" />
+            <state relative-caret-position="230">
+              <caret line="333" column="30" selection-start-line="333" selection-start-column="30" selection-end-line="333" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lista_contratos.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Lista_contratos.java">
+      <file leaf-file-name="Confirmar_pago.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Confirmar_pago.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContratosAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/adapters/ContratosAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3628#5012#0" expanded="true" />
-                <element signature="e#5011#5012#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="8310">
+              <caret line="575" column="30" selection-start-line="575" selection-start-column="30" selection-end-line="575" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,47 +87,8 @@
       <file leaf-file-name="Detalle_contrato.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_contrato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1093">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_detalle_contrato.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalle_contrato.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="54" column="66" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_lista_contratos.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lista_contratos.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+            <state relative-caret-position="-510">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -2091,16 +2020,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/btn_verde_radius.xml" />
         <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/border_verde_radius.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/adapters/ClientesAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_agregar_pago.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detalle_cliente.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_cliente.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Menu.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Login.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Agregar_pago.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_confirmar_pago.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Confirmar_pago.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detalle_pago.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_pago.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_lista_clientes.xml" />
@@ -2109,11 +2034,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Home.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_lista_contratos.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_contrato.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/adapters/ContratosAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detalle_contrato.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Lista_contratos.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Menu.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_contrato.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Confirmar_pago.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Agregar_pago.java" />
       </list>
     </option>
   </component>
@@ -2684,6 +2613,14 @@
       <option name="presentableId" value="Default" />
       <updated>1488936801279</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cambios en detalle de contrato">
+      <created>1489973545784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489973545784</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2777,6 +2714,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cambios en detalle de contrato" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios en detalle de contrato" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2884,17 +2825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalle_cliente.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2914,45 +2844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="224" column="45" selection-start-line="224" selection-start-column="45" selection-end-line="224" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Agregar_pago.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="352" column="5" selection-start-line="346" selection-start-column="4" selection-end-line="352" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_pago.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="317" column="10" selection-start-line="317" selection-start-column="10" selection-end-line="317" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Confirmar_pago.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="361" column="42" selection-start-line="361" selection-start-column="42" selection-end-line="361" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -3144,29 +3039,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Home.java">
+    <entry file="jar:///Applications/android-sdk-macosx/platforms/android-24/android.jar!/android/os/AsyncTask.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+        <state relative-caret-position="151">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lista_contratos.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+        <state relative-caret-position="140">
+          <caret line="213" column="23" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Lista_contratos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="186" column="40" selection-start-line="186" selection-start-column="40" selection-end-line="186" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Lista_clientes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
+        <state relative-caret-position="80">
           <caret line="100" column="85" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/adapters/ContratosAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3628#5012#0" expanded="false" />
+            <element signature="e#5011#5012#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalle_contrato.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -3182,52 +3115,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalle_contrato.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lista_contratos.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+        <state relative-caret-position="399">
+          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Applications/android-sdk-macosx/platforms/android-24/android.jar!/android/os/AsyncTask.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="173">
+          <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_contrato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1093">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="-510">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/adapters/ContratosAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Agregar_pago.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3628#5012#0" expanded="true" />
-            <element signature="e#5011#5012#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="230">
+          <caret line="333" column="30" selection-start-line="333" selection-start-column="30" selection-end-line="333" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Lista_contratos.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Confirmar_pago.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="8310">
+          <caret line="575" column="30" selection-start-line="575" selection-start-column="30" selection-end-line="575" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

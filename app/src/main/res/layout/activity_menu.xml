@@ -118,7 +118,7 @@ tools:context="com.thekrakensolutions.gestioncobranza.Menu">
             android:id="@+id/btnPerfil">
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Clientes"
+                android:text="Contratos"
                 android:textSize="18dp"
                 android:paddingLeft="10dp"
                 android:textColor="@color/blanco"

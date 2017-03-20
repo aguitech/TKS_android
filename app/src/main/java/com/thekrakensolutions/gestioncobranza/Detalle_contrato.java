@@ -220,7 +220,8 @@ public class Detalle_contrato extends AppCompatActivity {
     public void goAgregarPago(View v){
         Intent i = new Intent(Detalle_contrato.this, Agregar_pago.class);
         //i.putExtra("idcliente", _listaIdVeterinarios.get(i));
-        i.putExtra("idcliente", idString);
+        //i.putExtra("idcliente", idString);
+        i.putExtra("idcontrato", idString);
         startActivity(i);
     }
     public void goMenu(View v){
