@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -83,6 +84,13 @@ public class Confirmar_pago extends AppCompatActivity {
         new Confirmar_pago.RetrieveFeedTaskGet().execute();
 
     }
+    private void showMsg(CharSequence text){
+        Context context = getApplicationContext();
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
     class RetrieveFeedTaskGet extends AsyncTask<Void, Void, String> {
 
         private Exception exception;
@@ -131,6 +139,9 @@ public class Confirmar_pago extends AppCompatActivity {
 
                 EditText cantidadPago = (EditText) findViewById(R.id.cantidadPago);
 
+
+
+
                 final ImageView fotoVeterinario = (ImageView) findViewById(R.id.imgVeterinario);
 
                 try {
@@ -149,6 +160,9 @@ public class Confirmar_pago extends AppCompatActivity {
                     String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("delegacion_municipio")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais")  + " , entre calle " + object.getString("entre_calle")  + " y calle " + object.getString("y_calle");
 
                     cantidadPago.setText(object.getString("cantidad_pago"));
+
+
+                    showMsg(object.getString("cantidad_pago"));
 
                     idPago = object.getString("id_pago");
                     /*
