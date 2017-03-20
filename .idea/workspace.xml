@@ -9,15 +9,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc321ce8-eff9-4cb8-be59-7c42cf703011" name="Default" comment="Cambios en flujo de contrato">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+    <list default="true" id="dc321ce8-eff9-4cb8-be59-7c42cf703011" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_pago.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_pago.java" />
     </list>
     <ignored path="TheKrakenSolutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,8 +75,8 @@
       <file leaf-file-name="Detalle_pago.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_pago.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="342" column="45" selection-start-line="342" selection-start-column="45" selection-end-line="342" selection-end-column="45" />
+            <state relative-caret-position="165">
+              <caret line="347" column="54" selection-start-line="347" selection-start-column="54" selection-end-line="347" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -2646,7 +2639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489980727950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cambios en flujo de contrato">
+      <created>1489981035052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489981035052</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3079,7 +3079,7 @@
         <state relative-caret-position="290">
           <caret line="186" column="40" selection-start-line="186" selection-start-column="40" selection-end-line="186" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3190,8 +3190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/Detalle_pago.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="342" column="45" selection-start-line="342" selection-start-column="45" selection-end-line="342" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="347" column="54" selection-start-line="347" selection-start-column="54" selection-end-line="347" selection-end-column="54" />
           <folding />
         </state>
       </provider>
