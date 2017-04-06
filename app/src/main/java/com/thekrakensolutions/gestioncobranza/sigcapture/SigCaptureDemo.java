@@ -20,10 +20,10 @@ import android.os.Looper;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.zebra.android.devdemo.ConnectionScreen;
-import com.zebra.android.devdemo.R;
-import com.zebra.android.devdemo.util.SettingsHelper;
-import com.zebra.android.devdemo.util.UIHelper;
+import com.thekrakensolutions.gestioncobranza.ConnectionScreen;
+import com.thekrakensolutions.gestioncobranza.R;
+import com.thekrakensolutions.gestioncobranza.util.SettingsHelper;
+import com.thekrakensolutions.gestioncobranza.util.UIHelper;
 import com.zebra.sdk.comm.BluetoothConnection;
 import com.zebra.sdk.comm.Connection;
 import com.zebra.sdk.comm.ConnectionException;

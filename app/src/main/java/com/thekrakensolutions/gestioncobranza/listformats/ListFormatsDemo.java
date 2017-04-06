@@ -21,8 +21,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.zebra.android.devdemo.ConnectionScreen;
-import com.zebra.android.devdemo.R;
+import com.thekrakensolutions.gestioncobranza.ConnectionScreen;
+import com.thekrakensolutions.gestioncobranza.R;
 
 public class ListFormatsDemo extends ConnectionScreen {
     private boolean retrieveFormats = true;

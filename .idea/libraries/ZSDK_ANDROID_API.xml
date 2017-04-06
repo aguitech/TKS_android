@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="ZSDK_ANDROID_API">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/ZSDK_ANDROID_API.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/ZSDK_ANDROID_API.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

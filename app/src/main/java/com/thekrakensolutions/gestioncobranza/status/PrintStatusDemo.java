@@ -17,7 +17,7 @@ package com.thekrakensolutions.gestioncobranza.status;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.zebra.android.devdemo.ConnectionScreen;
+import com.thekrakensolutions.gestioncobranza.ConnectionScreen;
 
 public class PrintStatusDemo extends ConnectionScreen {
 

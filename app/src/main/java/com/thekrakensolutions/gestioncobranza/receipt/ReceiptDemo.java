@@ -14,11 +14,6 @@
 
 package com.thekrakensolutions.gestioncobranza.receipt;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-
 import android.os.Bundle;
 import android.os.Looper;
 import android.view.View;
@@ -26,11 +21,11 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.zebra.android.devdemo.ConnectionScreen;
-import com.zebra.android.devdemo.R;
-import com.zebra.android.devdemo.util.DemoSleeper;
-import com.zebra.android.devdemo.util.SettingsHelper;
-import com.zebra.android.devdemo.util.UIHelper;
+import com.thekrakensolutions.gestioncobranza.ConnectionScreen;
+import com.thekrakensolutions.gestioncobranza.R;
+import com.thekrakensolutions.gestioncobranza.util.DemoSleeper;
+import com.thekrakensolutions.gestioncobranza.util.SettingsHelper;
+import com.thekrakensolutions.gestioncobranza.util.UIHelper;
 import com.zebra.sdk.comm.BluetoothConnection;
 import com.zebra.sdk.comm.Connection;
 import com.zebra.sdk.comm.ConnectionException;
@@ -39,6 +34,11 @@ import com.zebra.sdk.printer.PrinterLanguage;
 import com.zebra.sdk.printer.ZebraPrinter;
 import com.zebra.sdk.printer.ZebraPrinterFactory;
 import com.zebra.sdk.printer.ZebraPrinterLanguageUnknownException;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ReceiptDemo extends ConnectionScreen {
 

@@ -26,8 +26,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.TwoLineListItem;
 
-import com.zebra.android.devdemo.R;
-import com.zebra.android.devdemo.util.UIHelper;
+import com.thekrakensolutions.gestioncobranza.R;
+import com.thekrakensolutions.gestioncobranza.util.UIHelper;
 import com.zebra.sdk.printer.discovery.DiscoveredPrinter;
 import com.zebra.sdk.printer.discovery.DiscoveredPrinterBluetooth;
 import com.zebra.sdk.printer.discovery.DiscoveredPrinterNetwork;

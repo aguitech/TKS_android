@@ -100,7 +100,7 @@ public class Lista_contratos extends AppCompatActivity {
         //_url = "http://hyperion.init-code.com/zungu/app/vt_get_veterinarios.php?idp=" + Integer.toString(valueID);
         //_url = "http://thekrakensolutions.com/cobradores/android_get_clientes.php?id=" + Integer.toString(valueID);
         _url = "http://thekrakensolutions.com/cobradores/android_get_contratos.php?id=" + Integer.toString(valueID);
-        Log.d("url_veterinarios", _url);
+        Log.d("url_contratos", _url);
         new Lista_contratos.RetrieveFeedTask().execute();
     }
 

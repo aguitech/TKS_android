@@ -14,17 +14,13 @@
 
 package com.thekrakensolutions.gestioncobranza.sendfile;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Looper;
 
-import com.zebra.android.devdemo.ConnectionScreen;
-import com.zebra.android.devdemo.util.SettingsHelper;
-import com.zebra.android.devdemo.util.UIHelper;
+import com.thekrakensolutions.gestioncobranza.ConnectionScreen;
+import com.thekrakensolutions.gestioncobranza.util.SettingsHelper;
+import com.thekrakensolutions.gestioncobranza.util.UIHelper;
 import com.zebra.sdk.comm.BluetoothConnection;
 import com.zebra.sdk.comm.Connection;
 import com.zebra.sdk.comm.ConnectionException;
@@ -33,6 +29,10 @@ import com.zebra.sdk.printer.PrinterLanguage;
 import com.zebra.sdk.printer.ZebraPrinter;
 import com.zebra.sdk.printer.ZebraPrinterFactory;
 import com.zebra.sdk.printer.ZebraPrinterLanguageUnknownException;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class SendFileDemo extends ConnectionScreen {
 

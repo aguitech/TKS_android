@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/jackson-databind-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03ae380888029daefb91d3ecdca3a37d8cb92bc9">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-databind-2.2.3_da5889bebcab922ccabfd7d9c903717f9cec542e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/prov-1.53.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72c4892e05c7563fbab0c4ada0187cd879113389">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/prov-1.53.0.0_d5f94727383e2160bdf787f279f00799e666d448/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="132ee107943ba29812fb8baec74839168ad5a54a">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4310af12af2cfa216803bded0342710b53cf6ccf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/httpcore-4.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98e2eefcf524f757188f172642ecf5e2c7421947">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.3.1_df73c31e0da58245820761b73f7c11b28d26ef89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/commons-net-3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2298164a7c2484406f2aa5ac85b205d39019896f">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-net-3.1_1f57bb1c04d2469b52463a1bff5ee59164329ff0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/commons-lang3-3.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang3-3.4_1a1ca71ef68319a5e508c025ced5c09f875de841/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/jackson-core-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-core-2.2.3_2894c011cf180ea5de35418a51e9f2325db097ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f204484c3d2eb5fce6c2ec66d4ca1a82d890c18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/pkix-1.53.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="340c75534d964f468d82ed42006a7255362046c7">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/pkix-1.53.0.0_bdacd263c968ec149b8303718ecc4e0fe64f1f26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/snmp6_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0bca89e1d2d15cd384cc8aa6cef9940fb9ad6469">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/snmp6_1_3400d210af123f8486740ce48a4fec9ac57269ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/commons-io-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-io-2.2_0d6c97869b8f87eb497119a1ccde4ac51b6adbf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/ZSDK_ANDROID_API.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e02314a39e0bb526c7acd70f07255fa9e2e666fe">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/ZSDK_ANDROID_API_3b720801507919367b7b6f62d7d7fe8288c110f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/commons-validator-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42fa1046955ade59f5354a1876cfc523cea33815">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-validator-1.4.0_03736a2aff0119b7eff4ed6e897bb2eb445525cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/httpmime-4.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.3.2_a8e67b524689bd422a07f38a839d97b6ba48ed12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/jackson-annotations-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-annotations-2.2.3_95b60094d08b6b18587fef10e302ea39ebcbefac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/core-1.53.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="619f704791db186304325bd129b2e7ec34f77438">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/core-1.53.0.0_308c4f9311eb6f0b598bf244dc286f8567aa3126/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hectoraguilar/Git/TKS_android/app/src/main/java/com/thekrakensolutions/gestioncobranza/libs/opencsv-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1231104847b1132a07c54c7db8a823ef7923f7c">
+        <dex dex="/Users/hectoraguilar/Git/TKS_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/opencsv-2.2_dcf1e69065aab7639ded8135f185337d6950e7bd/classes.dex" />
+    </item>
+
+</items>

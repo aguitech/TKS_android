@@ -14,12 +14,14 @@
 
 package com.thekrakensolutions.gestioncobranza.statuschannel;
 
-import java.util.ArrayList;
-import java.util.List;
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
-import com.zebra.android.devdemo.R;
-import com.zebra.android.devdemo.util.SettingsHelper;
-import com.zebra.android.devdemo.util.UIHelper;
+import com.thekrakensolutions.gestioncobranza.R;
+import com.thekrakensolutions.gestioncobranza.util.SettingsHelper;
+import com.thekrakensolutions.gestioncobranza.util.UIHelper;
 import com.zebra.sdk.comm.BluetoothConnection;
 import com.zebra.sdk.comm.BluetoothStatusConnection;
 import com.zebra.sdk.comm.Connection;
@@ -30,10 +32,8 @@ import com.zebra.sdk.printer.ZebraPrinter;
 import com.zebra.sdk.printer.ZebraPrinterFactory;
 import com.zebra.sdk.util.internal.Sleeper;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import java.util.ArrayList;
+import java.util.List;
 
 public class StatusChannelScreen extends Activity {
     private boolean bluetoothSelected;

@@ -16,9 +16,9 @@ package com.thekrakensolutions.gestioncobranza.statuschannel;
 
 import java.util.HashSet;
 
-import com.zebra.android.devdemo.ConnectionScreen;
-import com.zebra.android.devdemo.util.SettingsHelper;
-import com.zebra.android.devdemo.util.UIHelper;
+import com.thekrakensolutions.gestioncobranza.ConnectionScreen;
+import com.thekrakensolutions.gestioncobranza.util.SettingsHelper;
+import com.thekrakensolutions.gestioncobranza.util.UIHelper;
 import com.zebra.sdk.comm.ConnectionChannel;
 import com.zebra.sdk.printer.discovery.BluetoothDiscoverer;
 import com.zebra.sdk.printer.discovery.ServiceDiscoveryHandler;

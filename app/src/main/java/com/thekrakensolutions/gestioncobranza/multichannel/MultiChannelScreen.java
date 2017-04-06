@@ -14,16 +14,17 @@
 
 package com.thekrakensolutions.gestioncobranza.multichannel;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
-import com.zebra.android.devdemo.ConnectionScreen;
-import com.zebra.android.devdemo.R;
-import com.zebra.android.devdemo.util.DemoSleeper;
-import com.zebra.android.devdemo.util.SettingsHelper;
-import com.zebra.android.devdemo.util.UIHelper;
+import com.thekrakensolutions.gestioncobranza.ConnectionScreen;
+import com.thekrakensolutions.gestioncobranza.R;
+import com.thekrakensolutions.gestioncobranza.util.DemoSleeper;
+import com.thekrakensolutions.gestioncobranza.util.SettingsHelper;
+import com.thekrakensolutions.gestioncobranza.util.UIHelper;
 import com.zebra.sdk.comm.ConnectionException;
 import com.zebra.sdk.comm.MultichannelBluetoothConnection;
 import com.zebra.sdk.comm.MultichannelConnection;
@@ -36,11 +37,10 @@ import com.zebra.sdk.printer.ZebraPrinter;
 import com.zebra.sdk.printer.ZebraPrinterFactory;
 import com.zebra.sdk.settings.SettingsValues;
 
-import android.app.Activity;
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 public class MultiChannelScreen extends Activity {
 

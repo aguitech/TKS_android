@@ -22,7 +22,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.zebra.android.devdemo.R;
+import com.thekrakensolutions.gestioncobranza.R;
 
 public class SubnetSearchParameters extends Activity {
 

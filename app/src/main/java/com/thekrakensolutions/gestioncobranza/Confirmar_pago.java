@@ -331,7 +331,8 @@ public class Confirmar_pago extends AppCompatActivity {
     */
 
     public void goBack(View v){
-        Intent i = new Intent(Confirmar_pago.this, Lista_clientes.class);
+        //Intent i = new Intent(Confirmar_pago.this, Lista_clientes.class);
+        Intent i = new Intent(Confirmar_pago.this, Lista_contratos.class);
         startActivity(i);
     }
     public void agregarPago(View v){

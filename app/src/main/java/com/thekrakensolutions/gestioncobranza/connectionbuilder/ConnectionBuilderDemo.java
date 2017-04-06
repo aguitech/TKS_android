@@ -30,7 +30,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.thekrakensolutions.gestioncobranza.R;
-
 import com.zebra.sdk.comm.Connection;
 import com.zebra.sdk.comm.ConnectionBuilder;
 import com.zebra.sdk.comm.ConnectionException;

@@ -14,26 +14,26 @@
 
 package com.thekrakensolutions.gestioncobranza;
 
-import com.zebra.android.devdemo.connectionbuilder.ConnectionBuilderDemo;
-import com.zebra.android.devdemo.connectivity.ConnectivityDemo;
-import com.zebra.android.devdemo.discovery.DiscoveryDemo;
-import com.zebra.android.devdemo.imageprint.ImagePrintDemo;
-import com.zebra.android.devdemo.listformats.ListFormatsDemo;
-import com.zebra.android.devdemo.magcard.MagCardDemo;
-import com.zebra.android.devdemo.multichannel.MultiChannelDemo;
-import com.zebra.android.devdemo.receipt.ReceiptDemo;
-import com.zebra.android.devdemo.sendfile.SendFileDemo;
-import com.zebra.android.devdemo.sigcapture.SigCaptureDemo;
-import com.zebra.android.devdemo.smartcard.SmartCardDemo;
-import com.zebra.android.devdemo.status.PrintStatusDemo;
-import com.zebra.android.devdemo.statuschannel.StatusChannelDemo;
-import com.zebra.android.devdemo.storedformat.StoredFormatDemo;
-
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
+
+import com.thekrakensolutions.gestioncobranza.connectionbuilder.ConnectionBuilderDemo;
+import com.thekrakensolutions.gestioncobranza.connectivity.ConnectivityDemo;
+import com.thekrakensolutions.gestioncobranza.discovery.DiscoveryDemo;
+import com.thekrakensolutions.gestioncobranza.imageprint.ImagePrintDemo;
+import com.thekrakensolutions.gestioncobranza.listformats.ListFormatsDemo;
+import com.thekrakensolutions.gestioncobranza.magcard.MagCardDemo;
+import com.thekrakensolutions.gestioncobranza.multichannel.MultiChannelDemo;
+import com.thekrakensolutions.gestioncobranza.receipt.ReceiptDemo;
+import com.thekrakensolutions.gestioncobranza.sendfile.SendFileDemo;
+import com.thekrakensolutions.gestioncobranza.sigcapture.SigCaptureDemo;
+import com.thekrakensolutions.gestioncobranza.smartcard.SmartCardDemo;
+import com.thekrakensolutions.gestioncobranza.status.PrintStatusDemo;
+import com.thekrakensolutions.gestioncobranza.statuschannel.StatusChannelDemo;
+import com.thekrakensolutions.gestioncobranza.storedformat.StoredFormatDemo;
 
 public class LoadDevDemo extends ListActivity {
 

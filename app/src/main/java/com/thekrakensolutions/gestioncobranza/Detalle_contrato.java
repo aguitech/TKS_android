@@ -313,7 +313,8 @@ public class Detalle_contrato extends AppCompatActivity {
     */
 
     public void goBack(View v){
-        Intent i = new Intent(Detalle_contrato.this, Lista_clientes.class);
+        //Intent i = new Intent(Detalle_contrato.this, Lista_clientes.class);
+        Intent i = new Intent(Detalle_contrato.this, Lista_contratos.class);
         startActivity(i);
     }
     public void goAgregarPago(View v){

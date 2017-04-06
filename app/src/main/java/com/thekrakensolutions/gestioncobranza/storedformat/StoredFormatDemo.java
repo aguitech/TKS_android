@@ -17,7 +17,7 @@ package com.thekrakensolutions.gestioncobranza.storedformat;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.zebra.android.devdemo.ConnectionScreen;
+import com.thekrakensolutions.gestioncobranza.ConnectionScreen;
 
 public class StoredFormatDemo extends ConnectionScreen {
 
