@@ -101,6 +101,34 @@ public class ContratosAdapter extends BaseAdapter {
         });
         */
 
+        rowView.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v) {
+                //_urlGo = "http://hyperion.init-code.com/zungu/app/vt_agregar_id_veterinario.php?idu=" + Integer.toString(_valueID) + "&idv=" + _listaIdVeterinarios.get(pos);
+                //Log.d("urlgo",_urlGo);
+                //new AgregarVeterinariosAdapter.RetrieveFeedTask().execute();
+
+                //Toast.makeText(holder.nombreVeterinario.getContext(), "Veterinario agregado con éxito.", Toast.LENGTH_LONG).show();
+                //Intent i = new Intent(context, Detalle_veterinario.class);
+                //context.startActivity(i);
+
+
+                //Intent intent = new Intent(context, Detalle_veterinario.class);
+                //intent.putExtra("idveterinario", i);
+                //context.startActivity(intent);
+
+                Log.d("click", String.valueOf(i));
+                Log.d("click", _listaIdVeterinarios.get(i));
+
+                //Intent intent = new Intent(context, Detalle_cliente.class);
+                Intent intent = new Intent(context, Detalle_contrato.class);
+                //intent.putExtra("idveterinario", _listaIdVeterinarios.get(i));
+                //intent.putExtra("idcliente", _listaIdVeterinarios.get(i));
+                intent.putExtra("idcontrato", _listaIdVeterinarios.get(i));
+                context.startActivity(intent);
+
+            }
+        });
+
         holder.detalleVeterinario.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 //_urlGo = "http://hyperion.init-code.com/zungu/app/vt_agregar_id_veterinario.php?idu=" + Integer.toString(_valueID) + "&idv=" + _listaIdVeterinarios.get(pos);

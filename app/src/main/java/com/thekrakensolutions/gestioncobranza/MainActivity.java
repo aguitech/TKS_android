@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
                 //Intent i = new Intent(MainActivity.this, SendFileDemo.class);
                 //El recibo
                 //Intent i = new Intent(MainActivity.this, SendFileReciboURL.class);
+                //Intent i = new Intent(MainActivity.this, SendFileReciboURL.class);
+                //Intent i = new Intent(MainActivity.this, WelcomeActivity.class);
+                //Intent i = new Intent(MainActivity.this, Main_Activity.class);
                 Intent i = new Intent(MainActivity.this, WelcomeActivity.class);
                 startActivity(i);
 

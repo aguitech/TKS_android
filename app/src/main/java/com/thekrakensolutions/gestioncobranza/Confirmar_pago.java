@@ -3,8 +3,12 @@ package com.thekrakensolutions.gestioncobranza;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -13,6 +17,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Callback;
+import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -151,18 +158,18 @@ public class Confirmar_pago extends AppCompatActivity {
 
                     String _nombre_vo = object.getString("numero_cliente") + " - " + object.getString("nombre") + " " + object.getString("apaterno") + " " + object.getString("amaterno");
 
-                    String _telefono_vo = object.getString("telefono_casa");
+                    //String _telefono_vo = object.getString("telefono_casa");
                     String _cedula_vo = object.getString("numero_cliente");
                     String _email_vo = object.getString("fecha_nacimiento");
-                    String _imagen_vo = object.getString("sexo");
+                    String _imagen_vo = object.getString("imagen");
 
                     //String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("delegacion_municipio")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais")  + " , entre calle " + object.getString("entre_calle")  + " y calle " + object.getString("y_calle")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno");
-                    String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("delegacion_municipio")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais")  + " , entre calle " + object.getString("entre_calle")  + " y calle " + object.getString("y_calle");
+
 
                     cantidadPago.setText(object.getString("cantidad_pago"));
 
 
-                    showMsg(object.getString("cantidad_pago"));
+                    //showMsg(object.getString("cantidad_pago"));
 
                     idPago = object.getString("id_pago");
                     /*
@@ -182,20 +189,44 @@ public class Confirmar_pago extends AppCompatActivity {
                     if(_email_vo.length() > 3)
                         lblEmailVo.setText(_email_vo);
 
+
+
+                    /*
                     if(_telefono_vo.length() > 3)
                         lblCelVo.setText(_telefono_vo);
 
-                    /*
                     if(_cedula_vo.length() > 3)
                         lblCedVo.setText(_cedula_vo);
                         */
 
+                    String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("delegacion_municipio")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais");
                     if(txtDireccion_.length() > 3)
                         txtDireccion.setText(txtDireccion_);
 
 
 
 
+
+                    if(_imagen_vo.length() > 3){
+                        String _urlFoto = "http://thekrakensolutions.com/administrativos/images/clientes/" + _imagen_vo;
+                        //Picasso.with(fotoVeterinario.getContext()).load(_urlFoto).fit().centerCrop().into(fotoVeterinario);
+
+                        Picasso.with(fotoVeterinario.getContext()).load(_urlFoto)
+                                .into(fotoVeterinario, new Callback() {
+                                    @Override
+                                    public void onSuccess() {
+                                        Bitmap imageBitmap = ((BitmapDrawable) fotoVeterinario.getDrawable()).getBitmap();
+                                        RoundedBitmapDrawable circularBitmapDrawable =
+                                                RoundedBitmapDrawableFactory.create(fotoVeterinario.getContext().getResources(), imageBitmap);
+                                        circularBitmapDrawable.setCircular(true);
+                                        fotoVeterinario.setImageDrawable(circularBitmapDrawable);
+                                    }
+                                    @Override
+                                    public void onError() {
+
+                                    }
+                                });
+                    }
                     /*
                     if(_imagen_vo.length() > 3){
                         String _urlFoto = "http://hyperion.init-code.com/zungu/imagen_establecimiento/" + _imagen_vo;

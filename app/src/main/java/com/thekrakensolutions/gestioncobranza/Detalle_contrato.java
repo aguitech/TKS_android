@@ -3,8 +3,12 @@ package com.thekrakensolutions.gestioncobranza;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -12,7 +16,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.squareup.picasso.Callback;
+import com.squareup.picasso.Picasso;
 import com.thekrakensolutions.gestioncobranza.adapters.PagosAdapter;
 
 import org.json.JSONArray;
@@ -58,7 +65,9 @@ public class Detalle_contrato extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle_contrato);
 
-        lv = (ListView) findViewById(R.id.list_pagos);
+        //lv = (ListView) findViewById(R.id.list_pagos);
+
+        showMsg("test");
 
         //String idString;
         Bundle extras = getIntent().getExtras();
@@ -93,10 +102,20 @@ public class Detalle_contrato extends AppCompatActivity {
         _urlGet = "http://thekrakensolutions.com/cobradores/android_get_contrato.php?id_editar=" + idString + "&idv=" + valueID + "&accion=true";
         new Detalle_contrato.RetrieveFeedTaskGet().execute();
 
+
+        /**
         _url = "http://thekrakensolutions.com/cobradores/android_get_contratos.php?id=" + Integer.toString(valueID);
         Log.d("url_veterinarios", _url);
         new Detalle_contrato.RetrieveFeedTask().execute();
+        */
 
+    }
+    private void showMsg(CharSequence text){
+        Context context = getApplicationContext();
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
     }
     class RetrieveFeedTaskGet extends AsyncTask<Void, Void, String> {
 
@@ -105,9 +124,11 @@ public class Detalle_contrato extends AppCompatActivity {
         protected void onPreExecute() {
         }
 
+
+
         protected String doInBackground(Void... urls) {
             try {
-                Log.i("INFO url: ", _urlGet);
+                Log.i("INFO url Contrato: ", _urlGet);
                 URL url = new URL(_urlGet);
                 HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 try {
@@ -127,6 +148,7 @@ public class Detalle_contrato extends AppCompatActivity {
                 return null;
             }
         }
+
 
         protected void onPostExecute(String response) {
             if (response == null) {
@@ -153,13 +175,18 @@ public class Detalle_contrato extends AppCompatActivity {
 
                     String _nombre_vo = object.getString("numero_cliente") + " - " + object.getString("nombre") + " " + object.getString("apaterno") + " " + object.getString("amaterno");
 
-                    String _telefono_vo = object.getString("telefono_casa");
+                    //String _telefono_vo = object.getString("telefono_casa");
                     String _cedula_vo = object.getString("numero_cliente");
                     String _email_vo = object.getString("fecha_nacimiento");
-                    String _imagen_vo = object.getString("sexo");
+                    //String _imagen_vo = object.getString("sexo");
+                    String _imagen_vo = object.getString("imagen");
 
-                    //String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("delegacion_municipio")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais")  + " , entre calle " + object.getString("entre_calle")  + " y calle " + object.getString("y_calle")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno");
-                    String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("delegacion_municipio")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais")  + " , entre calle " + object.getString("entre_calle")  + " y calle " + object.getString("y_calle");
+
+                    showMsg("tesst2");
+
+                    showMsg(_email_vo);
+                    //showMsg(_telefono_vo);
+
 
                     /*
                     {"id_cliente":"1","cliente":"","numero_cliente":"0","fecha_nacimiento":"0000-00-00","sexo":"mkl","imagen":"",":"klmkl","":"mkl","":"mklm","":"klm","":"klmkl","telefono_casa":"","telefono_celular":"","telefono_oficina":"","":"","":"","ocupacion":"","direccion_trabajo":"","nombre_pareja":"","ocupacion_pareja":"","telefono_pareja":"","complexion":"","estatura":"","tez":"","edad_rango":"","cabello":"","color_cabello":"","tipo_identificacion":"","numero_identificacion":"","nombre_referencia_1":"","direccion_referencia_1":"","telefono_referencia_1":"","parentesco_referencia_1":"","anios_conocerce_referencia_1":"","nombre_referencia_2":"","direccion_referencia_2":"","telefono_referencia_2":"","parentesco_referencia_2":"","anios_conocerce_referencia_2":"","maps_localizacion":"","imagen_plano_localizacion":"","fachada_casa":"","a_lado_casa":"","enfrente_casa":"","autorizacion_contratos":"","id_creador":"0","id_empresa":"0"}
@@ -172,29 +199,40 @@ public class Detalle_contrato extends AppCompatActivity {
                     String _imagen_vo = object.getString("imagen_veterinario");
                     */
 
+
+
+
                     if(_nombre_vo.length() > 3)
                         lblNombreVo.setText(_nombre_vo);
 
                     if(_email_vo.length() > 3)
                         lblEmailVo.setText(_email_vo);
 
+                    /*
                     if(_telefono_vo.length() > 3)
                         lblCelVo.setText(_telefono_vo);
 
+                    */
                     /*
                     if(_cedula_vo.length() > 3)
                         lblCedVo.setText(_cedula_vo);
                         */
 
+
+                    //DIRECCION
+                    //String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("delegacion_municipio")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais")  + " , entre calle " + object.getString("entre_calle")  + " y calle " + object.getString("y_calle")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno")  + " " + object.getString("amaterno");
+                    //String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("delegacion_municipio")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais")  + " , entre calle " + object.getString("entre_calle")  + " y calle " + object.getString("y_calle");
+                    String txtDireccion_ = object.getString("calle") + " " + object.getString("numero_exterior") + " " + object.getString("numero_interior")  + " , Colonia " + object.getString("colonia")  + " , Delegación/Municipio " + object.getString("poblacion")  + " , Estado " + object.getString("estado")  + " , C.P. " + object.getString("codigo_postal")  + " , País " + object.getString("pais");
+
                     if(txtDireccion_.length() > 3)
                         txtDireccion.setText(txtDireccion_);
 
 
+                    Log.d("INFO", _nombre_vo);
 
 
-                    /*
                     if(_imagen_vo.length() > 3){
-                        String _urlFoto = "http://hyperion.init-code.com/zungu/imagen_establecimiento/" + _imagen_vo;
+                        String _urlFoto = "http://thekrakensolutions.com/administrativos/images/clientes/" + _imagen_vo;
                         //Picasso.with(fotoVeterinario.getContext()).load(_urlFoto).fit().centerCrop().into(fotoVeterinario);
 
                         Picasso.with(fotoVeterinario.getContext()).load(_urlFoto)
@@ -213,7 +251,8 @@ public class Detalle_contrato extends AppCompatActivity {
                                     }
                                 });
                     }
-                    */
+
+
 
 
                 } catch (JSONException e) {
@@ -294,8 +333,10 @@ public class Detalle_contrato extends AppCompatActivity {
 
                     }
 
+                    /*
                     _mascotasAdapter = new PagosAdapter(valueID, mActivity, listaNombreVeterinarios, listaImagenVeterinarios, listaIdVeterinario);
                     lv.setAdapter(_mascotasAdapter);
+                    */
 
                 } catch (Exception e) {
                     e.printStackTrace();
