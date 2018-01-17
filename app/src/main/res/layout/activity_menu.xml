@@ -4,7 +4,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="@color/obscuro" android:alpha="0.8"
-tools:context="com.thekrakensolutions.gestioncobranza.Menu">
+tools:context="com.ascend.app.Menu">
 
 <!--Contenedor padre-->
 <LinearLayout
@@ -126,6 +126,73 @@ tools:context="com.thekrakensolutions.gestioncobranza.Menu">
         </LinearLayout>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:onClick="goEventos">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.10"
+            android:gravity="center"
+            android:layout_height="30dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:src="@drawable/perfil"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.80"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"
+            android:id="@+id/btnEventos">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Eventos"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/blanco"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:onClick="goCrearEvento">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.10"
+            android:gravity="center"
+            android:layout_height="30dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:src="@drawable/perfil"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.80"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"
+            android:id="@+id/btnCrearEvento">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Crear Evento"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/blanco"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
     <!--
     <LinearLayout
         android:layout_width="match_parent"

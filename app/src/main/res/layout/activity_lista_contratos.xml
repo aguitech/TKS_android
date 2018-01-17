@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondokraken"
-    tools:context="com.thekrakensolutions.gestioncobranza.Lista_contratos">
+    tools:context="com.ascend.app.Lista_contratos">
 
     <!--Comienza el contenedor padre-->
     <LinearLayout
@@ -39,7 +39,7 @@
                 android:layout_weight="0.60"
                 android:layout_height="match_parent">
                 <ImageView
-                    android:src="@drawable/kraken_logo_mini"
+                    android:src="@drawable/titulo_samemoon"
                     android:layout_width="100dp"
                     android:layout_height="match_parent" />
             </LinearLayout>

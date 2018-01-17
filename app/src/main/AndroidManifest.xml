@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thekrakensolutions.gestioncobranza">
+    package="com.ascend.app">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -28,36 +28,36 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-        <activity android:name="com.thekrakensolutions.gestioncobranza.MainActivity">
+        <activity android:name="com.ascend.app.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.WelcomeActivity"
+        <activity android:name="com.ascend.app.WelcomeActivity"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Home"
+        <activity android:name="com.ascend.app.Home"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Menu"
+        <activity android:name="com.ascend.app.Menu"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Login"
+        <activity android:name="com.ascend.app.Login"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Registro"
+        <activity android:name="com.ascend.app.Registro"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Lista_clientes"
+        <activity android:name="com.ascend.app.Lista_clientes"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Detalle_cliente"
+        <activity android:name="com.ascend.app.Detalle_cliente"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Agregar_pago"
+        <activity android:name="com.ascend.app.Agregar_pago"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Confirmar_pago"
+        <activity android:name="com.ascend.app.Confirmar_pago"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Detalle_pago"
+        <activity android:name="com.ascend.app.Detalle_pago"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Lista_contratos"
+        <activity android:name="com.ascend.app.Lista_contratos"
             android:screenOrientation="portrait"></activity>
-        <activity android:name="com.thekrakensolutions.gestioncobranza.Detalle_contrato"
+        <activity android:name="com.ascend.app.Detalle_contrato"
             android:screenOrientation="portrait"></activity>
 
     </application>

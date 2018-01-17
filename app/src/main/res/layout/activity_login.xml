@@ -4,7 +4,7 @@
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.thekrakensolutions.gestioncobranza.Login">
+    tools:context="com.ascend.app.Login">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.80"
-                android:src="@drawable/kraken_logo_mini"/>
+                android:src="@drawable/titulo_iniciar_sesion"/>
 
         </LinearLayout>
 
@@ -67,7 +67,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="12dp"
-                android:background="@color/fondo_input"
+                android:background="@drawable/border_input_radius"
                 android:inputType="textEmailAddress"
                 android:drawableLeft="@drawable/mail"
                 android:drawablePadding="@dimen/txtDrwblPadding"
@@ -95,7 +95,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/txtPassword"
-                android:background="@color/fondo_input"
+                android:background="@drawable/border_input_radius"
                 android:inputType="textPassword"
                 android:drawableLeft="@drawable/lock"
                 android:drawablePadding="@dimen/txtDrwblPadding"
@@ -117,11 +117,12 @@
 
             <Button
                 android:layout_width="0dp"
-                android:text="Iniciar Sesión"
+                android:text="Continuar"
+                android:inputType="textCapWords"
                 android:onClick="doLogin"
                 android:textColor="@color/texto_slider"
                 android:textSize="15dp"
-                android:background="@drawable/registro_btn"
+                android:background="@drawable/btn_enviar"
                 android:layout_height="match_parent"
                 android:layout_weight="0.35"
                 />

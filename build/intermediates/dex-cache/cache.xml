@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/hectoraguilar/Git/KRKN/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/hectoraguilar/Git/AscendMobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/hectoraguilar/Git/KRKN/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6e4f4799bf4ddbf254853efa235d9dab3b40a644/classes.dex" />
+        <dex dex="/Users/hectoraguilar/Git/AscendMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0da77991d39cd7e846b3537ff3cb32f52198c16f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/hectoraguilar/Git/KRKN/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/hectoraguilar/Git/AscendMobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="49665dff4b0a1f706f175d0fecdf01a1fb9b3d3d">
-        <dex dex="/Users/hectoraguilar/Git/KRKN/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d05ae81a1174a334cfcdd5968ad5c07358d7b876/classes.dex" />
+        sha1="affa8fdab0d548d54a09997600c95651be3d3f93">
+        <dex dex="/Users/hectoraguilar/Git/AscendMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_837356b74da239ffa32c019c0d5aca5d5f2f4105/classes.dex" />
     </item>
 
 </items>

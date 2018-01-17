@@ -4,7 +4,7 @@
     android:id="@+id/activity_registro"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.thekrakensolutions.gestioncobranza.Registro">
+    tools:context="com.ascend.app.Registro">
 
 
     <RelativeLayout
@@ -24,7 +24,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.80"
-                android:src="@drawable/logo_zungu"/>
+                android:src="@drawable/titulo_registro"/>
 
         </LinearLayout>
 
@@ -50,6 +50,7 @@
 
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_below="@+id/tx_registro"
             android:id="@+id/input"
@@ -68,7 +69,7 @@
                 android:id="@+id/txtNombre"
                 android:layout_height="match_parent"
                 android:layout_weight="0.50"
-                android:background="@color/fondo_input"
+                android:background="@drawable/border_input_radius"
                 android:inputType="text"
                 android:drawableLeft="@drawable/nombre"
                 android:drawablePadding="@dimen/txtDrwblPadding"
@@ -83,7 +84,7 @@
                 android:id="@+id/txtApellido"
                 android:layout_height="match_parent"
                 android:layout_weight="0.50"
-                android:background="@color/fondo_input"
+                android:background="@drawable/border_input_radius"
                 android:inputType="text"
                 android:paddingLeft="10dp"
                 />
@@ -107,7 +108,7 @@
                 android:id="@+id/txtEmail"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/fondo_input"
+                android:background="@drawable/border_input_radius"
                 android:inputType="textEmailAddress"
                 android:drawableLeft="@drawable/mail"
                 android:drawablePadding="@dimen/txtDrwblPadding"
@@ -134,7 +135,7 @@
                 android:id="@+id/txtPassword"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/fondo_input"
+                android:background="@drawable/border_input_radius"
                 android:inputType="textPassword"
                 android:drawableLeft="@drawable/lock"
                 android:drawablePadding="@dimen/txtDrwblPadding"
@@ -161,7 +162,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/txtPasswordDos"
-                android:background="@color/fondo_input"
+                android:background="@drawable/border_input_radius"
                 android:inputType="textPassword"
                 android:drawableLeft="@drawable/lock"
                 android:drawablePadding="@dimen/txtDrwblPadding"
@@ -182,11 +183,11 @@
 
             <Button
                 android:layout_width="0dp"
-                android:text="Regístrate"
+                android:text="Continuar"
                 android:onClick="doRegistro"
                 android:textColor="@color/texto_slider"
                 android:textSize="15dp"
-                android:background="@drawable/registro_btn"
+                android:background="@drawable/btn_enviar"
                 android:layout_height="match_parent"
                 android:layout_weight="0.35"
                 />

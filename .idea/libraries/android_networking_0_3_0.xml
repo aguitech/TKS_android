@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="android-networking-0.3.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/d1be50d956583e40b6a77635782be9d92095697e/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/d1be50d956583e40b6a77635782be9d92095697e/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/8b6d21edf45934d5a6ebc04c7e76744c302caed8/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/8b6d21edf45934d5a6ebc04c7e76744c302caed8/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

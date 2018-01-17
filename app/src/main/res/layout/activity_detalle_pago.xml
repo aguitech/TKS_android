@@ -10,7 +10,7 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     android:background="@color/blanco"
-    tools:context="com.thekrakensolutions.gestioncobranza.Detalle_pago">
+    tools:context="com.ascend.app.Detalle_pago">
     <LinearLayout
         android:background="@color/blanco"
         android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_weight="0.60"
             android:layout_height="match_parent">
             <ImageView
-                android:src="@drawable/kraken_logo_mini"
+                android:src="@drawable/titulo_samemoon"
                 android:layout_width="100dp"
                 android:layout_height="match_parent" />
         </LinearLayout>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#541784</color>
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
+    -->
     <color name="colorAccent">#FF4081</color>
     <color name="colorOmitir">#FFFFFF</color>
     <color name="texto_slider">#FFFFFF</color>
     <color name="verde_texto">#00DC49</color>
     <!--<color name="fondo_input">#87C848</color>-->
-    <color name="fondo_input">#003b93</color>
+    <!--<color name="fondo_input">#003b93</color>-->
+    <color name="fondo_input">#6ac9c5</color>
+
 
     <color name="btn_registro">#00DC49</color>
     <color name="btn_facebook">#3b5998</color>
